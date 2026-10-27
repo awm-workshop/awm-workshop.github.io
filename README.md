@@ -14,6 +14,8 @@ The preliminary four-hour program contains six 20-minute invited-talk slots, eac
 
 GitHub Pages publishes the `main` branch from the repository root. `index.html` is the complete static website with styles, scripts, fonts, portraits, and the 9-second robot animation embedded. `.nojekyll` disables Jekyll processing. No build dependencies or API keys are needed to serve this version.
 
+The robot animation automatically plays as a muted loop, without a visible Play/Pause control. The Imagine, Act, and Recover buttons seek to their stages and request playback. If the browser blocks autoplay, a stage still remains visible; selecting a stage retries playback.
+
 ## Editing
 
 The editable multi-file source is preserved in `actionwm-source.zip`; this filename is retained for compatibility. Its top-level folder is `awm-workshop.github.io/`. Extract it to update the page, rosters, and assets. The source includes a video-capable local preview server and an optional official GitHub Actions workflow that deploys `dist/`. The current repository instead uses the self-contained root page described above.
@@ -21,5 +23,7 @@ The editable multi-file source is preserved in `actionwm-source.zip`; this filen
 After editing, regenerate `index.html` and the source archive, then replace both in this repository. Any push to `main` updates the Pages website.
 
 ## Assets
+
+The typography pairs Source Serif 4 for display text with Manrope for body and interface text. Both fonts are bundled locally under the SIL Open Font License. Their licenses are retained at `dist/assets/fonts/SourceSerif4-OFL.txt` and `dist/assets/fonts/OFL.txt` in the source archive and embedded in the standalone page.
 
 Robot geometry is from Google DeepMind MuJoCo Menagerie's Franka Panda model under Apache-2.0. The studio scene and animation illustrate the workshop topic and are not experiment footage. Font, model, and portrait attribution records are retained in the source archive and embedded page; see `THIRD-PARTY-NOTICES.md`.
