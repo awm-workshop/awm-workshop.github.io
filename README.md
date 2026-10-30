@@ -6,7 +6,7 @@ Website for the proposed CVPR 2027 workshop **Acting with World Models: When to 
 - Organization: [awm-workshop](https://github.com/awm-workshop), displayed as **Acting with World Models**
 - Repository: [awm-workshop/awm-workshop.github.io](https://github.com/awm-workshop/awm-workshop.github.io)
 
-The workshop remains at the proposal stage. Acceptance, the exact workshop slot, talk titles, and submission policies are pending. As of October 30, 2026, the six invited speakers comprise five confirmed speakers (**Wojciech Matusik**, **William T. Freeman**, **Nicklas Hansen**, **Yilun Du**, and **Dongfang Liu**) and one tentative speaker (**Leslie Pack Kaelbling**), alongside eight organizers and eight confirmed program committee members.
+The workshop remains at the proposal stage. Acceptance, the exact workshop slot, talk titles, and submission policies are pending. As of October 30, 2026, the six invited speakers comprise five confirmed speakers (**Wojciech Matusik**, **William T. Freeman**, **Yilun Du**, **Nicklas Hansen**, and **Dongfang Liu**) and one tentative speaker (**Leslie Pack Kaelbling**), alongside eight organizers and eight confirmed program committee members.
 
 The preliminary four-hour program contains six 20-minute invited-talk slots, each with a 15-minute presentation and 5 minutes of Q&A. Poster discussion and the debate each receive 30 minutes. Final timing remains subject to CVPR scheduling.
 
