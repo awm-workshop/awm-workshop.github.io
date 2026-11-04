@@ -146,8 +146,8 @@
 
     <section class="section wrap" id="contribute" aria-labelledby="contribute-title">
       <div class="section-heading heading-inline"><div><p class="section-kicker">4 / CONTRIBUTE TO AWM</p><h2 id="contribute-title">Call for Papers</h2><p class="cfp-status">Preliminary · submissions are not yet open</p></div><p class="section-note">We welcome methods, analyses, simulation studies, and negative results involving video, latent, or structured world models.</p></div>
-      <div class="submission-plans"><div class="submission-switch" role="tablist" aria-label="Planned submission tracks"><button role="tab" id="tab-archival" aria-selected="true" aria-controls="panel-archival" data-track="archival">Archival research</button><button role="tab" id="tab-discussion" aria-selected="false" aria-controls="panel-discussion" tabindex="-1" data-track="discussion">Nonarchival discussion</button></div>
-        <div id="panel-archival" role="tabpanel" tabindex="0" aria-labelledby="tab-archival" class="submission-panel"><div><h3>Original research papers</h3><p>We invite original research papers. We plan double-blind review and publication of accepted papers in the CVPR workshop proceedings through CVF, subject to workshop acceptance and conference requirements.</p><div class="track-tags"><span>5–8 pages, excluding references</span><span>Double-blind review planned</span></div></div><div class="deadline-block"><span>PROPOSED DEADLINE</span><strong>March 5<span>2027</span></strong><p>Submission portal not yet open.</p></div></div>
+      <div class="submission-plans"><div class="submission-switch" role="tablist" aria-label="Planned submission tracks"><button role="tab" id="tab-archival" aria-selected="true" aria-controls="panel-archival" data-track="archival">Archival research</button><button role="tab" id="tab-discussion" aria-selected="false" aria-controls="panel-discussion" tabindex="-1" data-track="discussion">Non-archival discussion</button></div>
+        <div id="panel-archival" role="tabpanel" tabindex="0" aria-labelledby="tab-archival" class="submission-panel"><div><h3>Original research papers</h3><p>We invite original research papers and plan double-blind review. Accepted archival papers will appear in the CVPR 2027 workshop proceedings (CVF). These plans are subject to workshop acceptance and conference requirements.</p><div class="track-tags"><span>5–8 pages, excluding references</span><span>Double-blind review planned</span></div></div><div class="deadline-block"><span>PROPOSED DEADLINE</span><strong>March 5<span>2027</span></strong><p>Submission portal not yet open.</p></div></div>
         <div id="panel-discussion" role="tabpanel" tabindex="0" aria-labelledby="tab-discussion" class="submission-panel" hidden><div><h3>Short papers and research summaries</h3><p>Short reports, research summaries, paired comparisons, and position papers for presentation without a proceedings entry. Previously published or concurrently submitted work may be eligible, subject to the policies of all relevant venues.</p><div class="track-tags"><span>Up to 4 pages, excluding references</span><span>Single-blind review planned</span></div></div><div class="deadline-block"><span>PROPOSED DEADLINE</span><strong>April 15<span>2027</span></strong><p>Submission portal not yet open.</p></div></div>
       </div>
       <div class="submission-note"><span aria-hidden="true">↗</span><p>The final call for papers, policies, deadlines, and submission link will be published after workshop acceptance.</p></div>
@@ -156,7 +156,7 @@
     <section class="community-section section" id="organizers" aria-labelledby="organizers-title"><div class="wrap">
       <div class="section-heading heading-inline"><div><p class="section-kicker">5 / THE TEAM</p><h2 id="organizers-title">Organizers</h2></div><p class="section-note">Researchers working across visual generation, robot learning, physical simulation, and multimodal agents.</p></div>
       <div class="organizer-grid" id="organizer-grid"></div>
-      <div class="pc-section" id="committee"><div><h3>Program committee</h3><p>Confirmed members</p></div><div class="pc-grid" id="pc-grid"></div></div>
+      <div class="pc-section" id="committee"><div><h3>Program committee</h3><p>15 confirmed members</p></div><div class="pc-grid" id="pc-grid"></div></div>
     </div></section>
   </main>
   <footer class="site-footer wrap"><a class="brand footer-brand" href="#top">AWM<span class="brand-year"> / 27</span></a><p>Acting with World Models · Proposed for CVPR 2027</p><a class="conference-link" href="https://cvpr.thecvf.com/Conferences/2027" target="_blank" rel="noopener noreferrer">CVPR 2027</a><a class="back-top" href="#top">Back to top</a></footer>
@@ -585,9 +585,9 @@ const speakers = [
   {name:'William T. Freeman', affiliation:'MIT', field:'Visual dynamics', status:'Confirmed', slug:'bill-freeman', url:'https://billf.mit.edu/'},
   {name:'Wojciech Matusik', affiliation:'MIT', field:'Computational design and physics simulation', status:'Confirmed', slug:'wojciech-matusik', url:'https://people.csail.mit.edu/wojciech/'},
   {name:'Yilun Du', affiliation:'Harvard University', field:'Generative models for planning', status:'Confirmed', slug:'yilun-du', url:'https://yilundu.github.io/'},
-  {name:'Liangliang Cao', affiliation:'The Hong Kong Polytechnic University', field:'Multimodal AI and intelligent agents', status:'Confirmed', slug:'liangliang-cao', url:'https://llcao.net/'},
+  {name:'Liangliang Cao', affiliation:'The Hong Kong Polytechnic University', field:'Multimodal foundation models and agents', status:'Confirmed', slug:'liangliang-cao', url:'https://llcao.net/'},
   {name:'Nicklas Hansen', affiliation:'New York University', field:'World models for planning and control', status:'Confirmed', slug:'nicklas-hansen', url:'https://www.nicklashansen.com/'},
-  {name:'Dongfang Liu', affiliation:'Purdue University', field:'Failure prediction and test-time adaptation', status:'Confirmed', slug:'dongfang-liu', url:'https://dongfang-liu.github.io/'}
+  {name:'Dongfang Liu', affiliation:'Purdue University', field:'Domain world models and calibrated prediction', status:'Confirmed', slug:'dongfang-liu', url:'https://dongfang-liu.github.io/'}
 ];
 const organizers = [
   {name:'Hang Hua', affiliation:'MIT–IBM Computing Research Lab', slug:'hang-hua', url:'https://hanghuacs.notion.site/'},
@@ -600,11 +600,18 @@ const organizers = [
   {name:'Rogerio Feris', affiliation:'MIT–IBM Computing Research Lab / IBM Research', slug:'rogerio-feris', url:'https://www.rogerioferis.org/'}
 ];
 const committee = [
+  ['Chaoyu Liu', 'University of Missouri–Kansas City'],
+  ['Chunjiang Liu', 'Carnegie Mellon University'],
+  ['Haoyu Chen', 'Harvard University'],
+  ['Jingdong Zhang', 'Texas A&M University'],
   ['Jingyang Lin', 'University of Rochester'],
+  ['Pengfei Ye', 'Hong Kong University of Science and Technology'],
   ['Ruichuan An', 'Peking University'],
+  ['Xiaoyuan Wang', 'Carnegie Mellon University'],
   ['Xin Lin', 'UC San Diego'],
   ['Yizhi Song', 'ByteDance'],
   ['Yongsheng Yu', 'University of Rochester'],
+  ['Zhantao Yang', 'Carnegie Mellon University'],
   ['Zhenghong Zhou', 'University of Rochester'],
   ['Zixuan Wang', 'Tsinghua University'],
   ['Ziyun Zeng', 'University of Rochester']
