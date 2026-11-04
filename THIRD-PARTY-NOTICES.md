@@ -12,4 +12,10 @@ The original robot geometry and link transforms are retained. The studio environ
 
 ## Existing website assets
 
-The supplied Manrope fonts retain their SIL Open Font License in `dist/assets/fonts/OFL.txt`. Portrait source records remain in `portrait-sources.json`.
+The Manrope and Source Serif 4 fonts retain their SIL Open Font Licenses in `dist/assets/fonts/OFL.txt` and `dist/assets/fonts/SourceSerif4-OFL.txt`, respectively. The cinematic page does not load Three.js. Any retained legacy Three.js source keeps its original MIT license alongside it.
+
+## Portraits
+
+Portrait rights remain with the respective rightsholders. Individual sources and image preparation notes are recorded in `portrait-sources.json`.
+
+Liangliang Cao’s portrait is from [The Hong Kong Polytechnic University academic staff directory](https://www.polyu.edu.hk/dsai/people/academic-staff/), which identifies it as Prof. CAO Liangliang. The original JPEG is retained without alteration or upscaling. No open license is stated.
